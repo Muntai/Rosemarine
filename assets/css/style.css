@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2023 Muntai
  */
 
 
@@ -260,7 +260,7 @@ body.nav-active { overflow: hidden; }
 
 
 /*-----------------------------------*\
-  #REUSED STYLE
+  #ПОВТОРНО ИСПОЛЬЗУЕМЫЙ СТИЛЬ
 \*-----------------------------------*/
 
 .container { padding-inline: 16px; }
@@ -280,6 +280,7 @@ body.nav-active { overflow: hidden; }
     margin-inline: auto;
 }
 
+/*Подчеркивание*/
 .hover-underline {
     position: relative;
     max-width: max-content;
@@ -606,7 +607,7 @@ body.nav-active { overflow: hidden; }
     left: 0;
     width: 100%;
     background-color: transparent;
-    padding-block: 40px;
+    padding-block: 20px;
     z-index: 4;
     border-block-end: 1px solid transparent;
     transition: var(--transition-1);
