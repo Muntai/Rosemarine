@@ -260,7 +260,7 @@ body.nav-active { overflow: hidden; }
 
 
 /*-----------------------------------*\
-  #ПОВТОРНО ИСПОЛЬЗУЕМЫЙ СТИЛЬ
+  #REUSED STYLE
 \*-----------------------------------*/
 
 .container { padding-inline: 16px; }
@@ -340,7 +340,7 @@ body.nav-active { overflow: hidden; }
     letter-spacing: var(--letterSpacing-5);
     max-width: max-content;
     border: 2px solid var(--gold-crayola);
-    padding: 12px 45px;
+    padding: 8px 35px;
     overflow: hidden;
     z-index: 1;
 }
@@ -858,6 +858,7 @@ body.nav-active { overflow: hidden; }
     line-height: var(--lineHeight-3);
 }
 
+/*Анимация кнопки*/
 .hero-btn::after {
     inset: 0;
     border: 1px solid var(--gold-crayola);
