@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2023 Muntai
+ * copyright 2022 codewithsadee
  */
 
 
@@ -280,7 +280,6 @@ body.nav-active { overflow: hidden; }
     margin-inline: auto;
 }
 
-/*Подчеркивание*/
 .hover-underline {
     position: relative;
     max-width: max-content;
@@ -340,7 +339,7 @@ body.nav-active { overflow: hidden; }
     letter-spacing: var(--letterSpacing-5);
     max-width: max-content;
     border: 2px solid var(--gold-crayola);
-    padding: 8px 35px;
+    padding: 12px 45px;
     overflow: hidden;
     z-index: 1;
 }
@@ -607,7 +606,7 @@ body.nav-active { overflow: hidden; }
     left: 0;
     width: 100%;
     background-color: transparent;
-    padding-block: 20px;
+    padding-block: 40px;
     z-index: 4;
     border-block-end: 1px solid transparent;
     transition: var(--transition-1);
@@ -858,7 +857,6 @@ body.nav-active { overflow: hidden; }
     line-height: var(--lineHeight-3);
 }
 
-/*Анимация кнопки*/
 .hero-btn::after {
     inset: 0;
     border: 1px solid var(--gold-crayola);
@@ -949,7 +947,11 @@ body.nav-active { overflow: hidden; }
   #ABOUT
 \*-----------------------------------*/
 
-.about .section-text { margin-block: 15px 30px; }
+.about .section-text {
+    margin-block: 15px 30px;
+    text-transform: uppercase;
+
+}
 
 .about .btn {
     margin-inline: auto;
@@ -1168,7 +1170,7 @@ body.nav-active { overflow: hidden; }
   #RESERVATION
 \*-----------------------------------*/
 
-.reservation-form { margin-block-start: -270px; }
+.reservation-form { margin-block-start: 40px; }
 
 .form-text { margin-block-end: 40px; }
 
@@ -1357,7 +1359,7 @@ textarea.input-field {
 
 .footer-brand .separator { animation: rotate360 15s linear infinite; }
 
-.footer-brand .label-1 { margin-block-end: 30px; }
+.footer-brand .title-1 { margin-block-end: 30px; }
 
 .footer-brand .label-1 .span {
     display: inline;
