@@ -183,7 +183,7 @@ body {
     font-weight: var(--weight-regular);
     line-height: var(--lineHeight-5);
     overflow: hidden;
-    height: 300vh;
+    height: 100vh;
 }
 
 body.loaded { overflow: overlay; }
@@ -1047,6 +1047,16 @@ body.nav-active { overflow: hidden; }
   #MENU
 \*-----------------------------------*/
 
+.container-menu { padding-inline: 16px; }
+
+.menu ul li {
+    width: content-box;
+}
+
+.menu .section-subtitle { margin-block: 80px; }
+
+/*.menu .section-title { margin-block: 10px; }*/
+
 .menu .section-title { margin-block-end: 40px; }
 
 .menu .grid-list { margin-block-end: 50px; }
@@ -1548,6 +1558,11 @@ textarea.input-field {
      * SERVICE
      */
 
+    .img-cover {
+
+        object-fit: cover;
+    }
+
     .service .container {
         max-width: 420px;
         margin-inline: auto;
@@ -1837,6 +1852,11 @@ textarea.input-field {
     /**
      * MENU
      */
+
+    .menu .menu-list {
+        position: relative;
+        display: list;
+    }
 
     .menu .grid-list {
         position: relative;
