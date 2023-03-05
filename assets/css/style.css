@@ -1456,6 +1456,13 @@ textarea.input-field {
  * responsive for larger than 575px screen
  */
 
+@media (max-width: 574px) {
+    .grid-list {
+        padding: 0 25px
+    }
+}
+
+
 @media (min-width: 575px) {
 
     /**
@@ -1470,6 +1477,10 @@ textarea.input-field {
 
         --fontSize-body-2: 2rem;
 
+    }
+
+    .grid-list {
+        padding: 0
     }
 
 
